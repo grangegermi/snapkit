@@ -17,6 +17,8 @@
 		DB1DDF6C28C4C60700917A5A /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1DDF6B28C4C60700917A5A /* TopView.swift */; };
 		DB1DDF6E28C4C65300917A5A /* exstension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1DDF6D28C4C65300917A5A /* exstension.swift */; };
 		DB1DDF7028C4C6E700917A5A /* BottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1DDF6F28C4C6E700917A5A /* BottomView.swift */; };
+		DB74F5F528DA22630080DA63 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB74F5F428DA22620080DA63 /* MenuViewController.swift */; };
+		DB74F5F728DA29D50080DA63 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB74F5F628DA29D50080DA63 /* NavigationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		DB1DDF6B28C4C60700917A5A /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
 		DB1DDF6D28C4C65300917A5A /* exstension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exstension.swift; sourceTree = "<group>"; };
 		DB1DDF6F28C4C6E700917A5A /* BottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomView.swift; sourceTree = "<group>"; };
+		DB74F5F428DA22620080DA63 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		DB74F5F628DA29D50080DA63 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +70,9 @@
 			children = (
 				DB1DDF5428C4C53000917A5A /* AppDelegate.swift */,
 				DB1DDF5628C4C53000917A5A /* SceneDelegate.swift */,
+				DB74F5F628DA29D50080DA63 /* NavigationViewController.swift */,
 				DB1DDF5828C4C53000917A5A /* ViewController.swift */,
+				DB74F5F428DA22620080DA63 /* MenuViewController.swift */,
 				DB1DDF6B28C4C60700917A5A /* TopView.swift */,
 				DB1DDF6F28C4C6E700917A5A /* BottomView.swift */,
 				DB1DDF6D28C4C65300917A5A /* exstension.swift */,
@@ -155,9 +161,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB74F5F728DA29D50080DA63 /* NavigationViewController.swift in Sources */,
 				DB1DDF5928C4C53000917A5A /* ViewController.swift in Sources */,
 				DB1DDF5528C4C53000917A5A /* AppDelegate.swift in Sources */,
 				DB1DDF6E28C4C65300917A5A /* exstension.swift in Sources */,
+				DB74F5F528DA22630080DA63 /* MenuViewController.swift in Sources */,
 				DB1DDF7028C4C6E700917A5A /* BottomView.swift in Sources */,
 				DB1DDF6C28C4C60700917A5A /* TopView.swift in Sources */,
 				DB1DDF5728C4C53000917A5A /* SceneDelegate.swift in Sources */,
